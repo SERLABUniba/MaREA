@@ -1,0 +1,28 @@
+{
+  "DIRECTORY_SAVED_DATASET_PADDED": "PATH\\DATASET\\PADDED",
+  "DIRECTORY_DATASET": "PATH\\DATASET\\PADDED",
+  "NAME_DATASET_TO_SAVE": "Final_dataset.csv",
+  "SAVE_DATASET": false,
+  "TUNING": false,
+  "DO_PREPROCESSING": true,
+  "PATH_SAVE_RESULTS": "PATH\\DATASET\\PADDED",
+  "DATASETS": {
+    "SURVIVAL_ANALYSIS_AND_FABRICATION": false,
+    "CAR_HACKING": true
+  },
+  "RANDOM_FOREST_PARAMETERS_SURVIVAL_ANALYSIS_AND_FABRICATION": {
+    "max_depth": 40,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "min_samples_split": 5,
+    "n_estimators": 100
+  },
+
+  "RANDOM_FOREST_PARAMETERS_CAR_HACKING": {
+    "max_depth": 20,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "n_estimators": 9
+  }
+}

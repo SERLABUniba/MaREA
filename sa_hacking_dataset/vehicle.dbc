@@ -1,0 +1,67 @@
+VERSION "0.2"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+
+BS_:
+
+BU_:
+
+
+BO_ 1020 ENGINE: 4 XXX
+ SG_ ENGINE_SPEED_ROTATION : 11|16@0+ (0.1,0) [0|6500] "rpm" Vector__XXX
+
+
+BO_ 1040 ENGINE_TORQUE: 4 XXX
+ SG_ TORQUE : 22|11@0- (0.5,0) [-500|500] "Nm" Vector__XXX
+
+
+BO_ 1070 GEAR: 4 XXX
+ SG_ GEAR_SHIFTER : 16|4@1+ (1,0) [0|8] "" Vector__XXX
+
+
+BO_ 1080 VEHICLE_SPEED: 8 XXX
+ SG_ WHEEL_VEHICLE_SPEED : 8|16@1+ (0.00390625,0) [0|250.996] "km/h" Vector__XXX
+
+
+BO_ 1090 WHEEL_SPEED: 8 XXX
+ SG_ WHL_SPD_FL : 0|14@1+ (0.03125,0.0) [0.0|511.96875] "km/h" Vector__XXX
+ SG_ WHL_SPD_FR : 16|14@1+ (0.03125,0.0) [0.0|511.96875] "km/h" Vector__XXX
+ SG_ WHL_SPD_RL : 32|14@1+ (0.03125,0.0) [0.0|511.96875] "km/h"  Vector__XXX
+ SG_ WHL_SPD_RR : 48|14@1+ (0.03125,0.0) [0.0|511.96875] "km/h"  Vector__XXX
+
+
+BO_ 1100 STEER: 8 XXX
+ SG_ STEER_ANGLE : 25|14@0- (1,375) [0|65536] "" XXX
+
+
+BO_ 1110 BRAKE_PEDAL: 4 XXX
+ SG_ NOT_BRAKE_PEDAL_PRESSED : 6|1@0+ (1,0) [0|3] "" XXX
+ SG_ BRAKE_PEDAL_PRESSED : 7|1@0+ (1,0) [0|65535] "" XXX
+
+
+CM_ BO_ 1020 "An example of ECU that provides the current speed of rotation of the engine";
+CM_ BO_ 1040 "An example of ECU that provides the current engine torque";
+CM_ BO_ 1060 "Broadcast the current status of the engine power ";
+
+VAL_ 1070 GEAR_SHIFTER 5 "D" 8 "S" 6 "N" 7 "R" 0 "P";
