@@ -11,7 +11,7 @@ _MaREA: Multi-class Random Forest for Automotive Intrusion Detection_
 ```
 @inproceedings{CaivanoCISE2023,
   title={Machine Learning for Automotive Security in Technology Transfer},
-  author={Caivano, Danilo and Catalano, Christian and De Vincentiis, Mirko and Lako, Alfred and Pagando, Alessandro},
+  author={Caivano, Danilo and Catalano, Christian and De Vincentiis, Mirko and Lako, Alfred and Pagano, Alessandro},
   booktitle={International Conference on Product-Focused Software Process Improvement},
   year={2023},
   organization={Springer}
