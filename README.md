@@ -9,23 +9,48 @@ _Vita Santa Barletta, Danilo Caivano, and Mirko De Vincentiis_
 _MaREA: Multi-class Random Forest for Automotive Intrusion Detection_
 
 ```
-@inproceedings{CaivanoCISE2023,
-  title={Machine Learning for Automotive Security in Technology Transfer},
-  author={Caivano, Danilo and Catalano, Christian and De Vincentiis, Mirko and Lako, Alfred and Pagano, Alessandro},
-  booktitle={International Conference on Product-Focused Software Process Improvement},
-  year={2023},
-  organization={Springer}
+@InProceedings{Caivano2024MaREA,
+author="Caivano, Danilo
+and Catalano, Christian
+and De Vincentiis, Mirko
+and Lako, Alfred
+and Pagano, Alessandro",
+editor="Kadgien, Regine
+and Jedlitschka, Andreas
+and Janes, Andrea
+and Lenarduzzi, Valentina
+and Li, Xiaozhou",
+title="MaREA: Multi-class Random Forest for Automotive Intrusion Detection",
+booktitle="Product-Focused Software Process Improvement",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="23--34",
+isbn="978-3-031-49269-3"
 }
 ```
 
 _Machine Learning for Automotive Security in Technology Transfer_
 
 ```
-@inproceedings{BarlettaWAITT2023,
-author={Barletta, Vita Santa and Caivano, Danilo and Catalano, Christian and De Vincentiis, Mirko and Pal, Anibrata},
-title={Machine Learning for Automotive Security in Technology Transfer},
-booktitle={Information Systems and Technologies - WorldCIST 2023 Volume 1},
-year = {2023}
+@InProceedings{Barletta2024TechTransfer,
+author="Barletta, Vita Santa
+and Caivano, Danilo
+and Catalano, Christian
+and De Vincentiis, Mirko
+and Pal, Anibrata",
+editor="Rocha, Alvaro
+and Adeli, Hojjat
+and Dzemyda, Gintautas
+and Moreira, Fernando
+and Colla, Valentina",
+title="Machine Learning for Automotive Security in Technology Transfer",
+booktitle="Information Systems and Technologies",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="341--350",
+isbn="978-3-031-45651-0"
 }
 ```
 
